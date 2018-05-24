@@ -1,7 +1,10 @@
 .header {
-    height: 60px;
-    line-height: 60px;
+    height: 40px;
     width: 100%;
     background: #336688;
     text-align: center;
+    /* Status bar height on iOS 10 */
+    padding-top: 20px;
+    /* Status bar height on iOS 11+ */
+    padding-top: constant(safe-area-inset-top);
 }

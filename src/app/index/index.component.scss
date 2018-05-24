@@ -1,0 +1,19 @@
+.container {
+    .routeList {
+        padding: 8px;
+        .router-item {
+            width: 100%;
+            background: #1abc9e;
+            height: 40px;
+            line-height: 40px;
+            font-size: 16px;
+            text-align: center;
+            border: none;
+            outline: none;
+            color: #fff;
+            padding: 0;
+            margin-bottom: 20px;
+            box-sizing: border-box;
+        }
+    }
+}

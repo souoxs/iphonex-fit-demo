@@ -1,0 +1,7 @@
+.content {
+    height: 100%;
+    width: 100%;
+    background:-webkit-gradient(linear, 0 0, 0 bottom, from(#ffd54f), to(#ffaa22));
+    padding-top: constant(safe-area-inset-top); //88px
+    position: absolute;
+}

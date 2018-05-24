@@ -1,0 +1,31 @@
+/*iPhoneX的适配*/
+@media only screen and (device-width: 375px) and (device-height: 812px) and (-webkit-device-pixel-ratio: 3) {
+    .media {
+        color: red;
+    }
+}
+
+/*iPhone8P的适配*/
+@media only screen and (device-width: 414px) and (device-height: 736px) and (-webkit-device-pixel-ratio: 3) {
+    .media {
+        color: green;
+    }
+}
+
+@media only screen and (device-width: 375px) and (device-height: 690px) {
+    .media {
+        color: yellow;
+    }
+}
+
+@media only screen and (width: 375px) and (height: 690px) {
+    .media {
+        color: #249cfb;
+    }
+}
+
+@media only screen and (width: 375px) and (height: 812px) {
+    .media {
+        color: rebeccapurple;
+    }
+}
